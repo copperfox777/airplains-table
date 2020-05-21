@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html class="no-js" lang="">
+  <head>
+    <meta charset="utf-8" />
+    <title>Flights Table</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/bulma.min.css">
+  </head>
+
+  <body>
+    <!--[if IE]>
+      <p class="browserupgrade">
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="https://browsehappy.com/">upgrade your browser</a> to improve
+        your experience and security.
+      </p>
+    <![endif]-->
+    <div class="flex-cont">
+      <div class="flex-box">
+        <div class="table-container">
+          <table class="table">
+            <thead id="tableHeader">
+              <tr>
+                <th id='flightNumber'>Рейс</th>
+                <th id='coordinates'>Координаты</th>
+                <th id='speed'>Скорость</th>
+                <th id='cousre'>Курс</th>
+                <th id='altitude'>Высота</th>
+                <th id='airports'>Аэропорты</th>
+                <th id='distance'>Расстояние</th>
+              </tr>
+            </thead>
+            <tbody id="tableBody">
+
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/fetchService.js"></script>
+    <script src="js/tableHelper.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
